@@ -6,7 +6,8 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import com.example.newsprojectpractice.models.Article
-import retrofit2.http.Query
+
+import androidx.room.Query
 
 
 @Dao
@@ -14,7 +15,7 @@ interface ArticleDAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsert(article: Article):Long
 
-   // @Query
+    @Query("SELECT * FROM articles")
     fun getAllArticles():LiveData<List<Article>>
 
     @Delete
