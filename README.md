@@ -8,7 +8,7 @@
 
 ## Getting started
 
-This is a simple news application made with Java and Kotlin for the backend. The application is built using the MVVM architecture to ensure a clean and maintainable code structure. For more information, please check the Github pages.
+This is a simple news application made with Java and Kotlin for the backend. The application is built using the MVVM architecture to ensure a clean and maintainable code structure. For more information, please check the Github pages
 https://tahazouggari.github.io/NewsMobileApp/
 
 # Project Structure
