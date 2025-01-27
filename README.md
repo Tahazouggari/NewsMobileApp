@@ -4,6 +4,10 @@
 ![image](https://github.com/user-attachments/assets/45c31981-f876-4b07-8524-753cc9a39c32)
 
 
+# Professors
+
+- **Anthony Roger**: anthony.roger231@ensicaen.fr
+
 
 
 ## Getting started
